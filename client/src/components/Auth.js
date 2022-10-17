@@ -56,7 +56,7 @@ const Auth = () =>{
         })
         .catch((err) => console.log(err.message));
 
-        const data = await res.data;
+        const data = await res.data;  
         return data;
     }
 

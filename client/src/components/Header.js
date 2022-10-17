@@ -4,7 +4,7 @@ import {Link} from "react-router-dom"
 import { useSelector,useDispatch } from "react-redux"
 import { authActions } from "../store"
 
-const Header = () =>{
+const Header = () =>{  
     const [value,setValue] = useState()
     const isLoggedIn = useSelector((state) => state.isLoggedIn)
     const dispatch = useDispatch() 
